@@ -660,7 +660,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-field{
-margin-bottom: 16px
+margin-bottom: 8px;
+}
+
+.modal-field.comment{
+  margin-bottom: 16px;
 }
 
 .modal-input:focus{
@@ -775,7 +779,6 @@ display: inline-flex;
 align-items: center;
  justify-content: center;
  fill: transparent;
-
 }
 
 .modal-check:checked + .check-text .check-element{
@@ -803,4 +806,5 @@ margin-bottom: 24px;
 
 .check-policy{
   color: #4d5ae5;
+  margin-left: 3px;
 }
